@@ -1,4 +1,6 @@
+*=$c000
 sei
-lda #$09
+lda #$05
 sta $d020
+sta $d021
 rts
